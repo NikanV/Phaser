@@ -51,6 +51,23 @@ Phaser هم از این قایده جدا نیست و حتی ۳ تا physic syst
 با استفاده از Group ها می توانیم Sprite های مختلف را با هم به صورت یک bundle قرار دهیم و با این کار ایجاد تغییرات روی آنها راحت تر شده و همچنین از ساختن Object ها به صورت مداوم هم جلوگیری می کند.
 به عنوان مثال اگر یک Object ی به اسم Hero داریم و برای Collision هر Hero ی که ساخته می شود باید تابع f را قرار دهیم، می توانیم با ساختن یک گروه به اسم Heroes و گذاشتن تابع f برای Collision آن، از همه آن اضافه کاری ها دوری کنیم.
 
+## Animation
+چهارچوب Phaser علاوه بر پشتیبانی از Sprite Sheet ها برای ساختن انیمیشن هایی با frame size ثابت، از texture atlas های معروف مثل Texture Packer، Startling و Unity YAML هم پشتیبانی می کند.
+<br>
+برای مطالعه بیشتر درباره سه texture atlas بالا می توانید به لینک های 
+[Texture Packer](https://www.codeandweb.com/texturepacker)و 
+[Starling](https://www.codeandweb.com/texturepacker/tutorials/getting-started-with-starling-a-flash-game-development-framework)
+و 
+[Unity YAML](https://docs.unity3d.com/Manual/UnityYAML.html)
+مراجعه کنید.
 
+## Particles
+چهارچوب Phaser یک particle system در داخل خودش دارد که باعث می شود particle effect ها را خیلی راحت تر استفاده کنیم. 
+حتی effect هایی مثل منفجر شدن و یا باران و آتش را هم برای استفاده دارد.
+
+## Camera
+یکی دیگر از مواردی که ممکن است استفاده از آنها در ساخت بازی سخت باشد دوربین است که Phaser این مورد را هم ساده کرده و اجازه استفاده از چند دوربین به صورت همزمان را خیلی پیشرفته پشتیبانی می کند. یعنی به راحتی می توانیم یک دوربین جدید بسازیم و آن را هر جایی از صفحه بگذاریم و  یا تصویر آن را Scale کنیم.
+<br>
+همچنین به هر دوربین هم می توانیم قابلیت هایی از جمله scroll کردن و یا effect هایی از جمله shake و flash را اضافه کنیم.
 
 </div>
