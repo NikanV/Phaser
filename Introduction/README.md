@@ -15,6 +15,27 @@
 چهارچوب Phaser ویژگی هایی دارد که که کار ما را در ساختن برنامه ها ساده تر می کند و همچنین باعث می شود که از بقیه چهارچوب ها سریعتر باشد. 
 پایین تر به برخی از آن ویژگی ها اشاره می کنیم.
 
+- [WebGL & Canvas](#webgl--canvas)
+- [Preloader](#preloader)
+- [Physics](#physics)
+  - [Arcade Physics](#arcade-physics)
+  - [Impact Physics](#impact-physics)
+  - [Matter.js](#matterjs)
+- [Sprites](#sprites)
+- [Groups](#groups)
+- [Animation](#animation)
+- [Particles](#particles)
+- [Camera](#camera)
+- [Input](#input)
+- [Sound](#sound)
+- [TileMaps](#tilemaps)
+- [Device Scaling](#device-scaling)
+- [Plugin System](#plugin-system)
+- [Mobile Browser](#mobile-browser)
+- [Developer Support](#developer-support)
+- [Web First](#web-first)
+
+
 ## WebGL & Canvas
 همانطور که بالاتر اشاره کردیم،‌ Phaser هم از WebGL استفاده می کند و هم از Canvas برای render کردن به صورت داخلی و سپس بسته به اینکه مرورگری که کاربر استفاده می کند از کدام روش پشتیبانی می کند،‌ بین آنها روش بهتر را انتخاب می کند.
 برای مطالعه بیشتر در مورد WebGL یا Canvas و مقایسه آنها می توانید به این
